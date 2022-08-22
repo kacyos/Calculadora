@@ -172,7 +172,7 @@ const keymap = {
 
   Enter: "=",
   Backspace: "DEL",
-  Delete: "DEL",
+  Delete: "CE",
   c: "C",
   C: "C",
   ",": ".",
