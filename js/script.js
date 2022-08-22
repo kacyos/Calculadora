@@ -183,10 +183,8 @@ document.addEventListener("keydown", (event) => {
   const key = event.key;
 
   const isAllowed = () => Object.keys(keymap).indexOf(key) !== -1;
-  console.log(event);
   if (isAllowed()) {
     if (parseFloat(key) > 0 || keymap[key] === ".") {
-      console.log();
       calculator.addDigit(keymap[key]);
     } else {
       calculator.processOperation(keymap[key]);
